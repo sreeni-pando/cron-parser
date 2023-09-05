@@ -1,0 +1,17 @@
+{
+  "name": "cron-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.48.0"
+  },
+  "dependencies": {
+    "cron-validate": "^1.4.5"
+  }
+}
