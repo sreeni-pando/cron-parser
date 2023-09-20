@@ -141,7 +141,16 @@ class CronExpression {
         } else {
           this.evaluateExpression(validValue);
           this.printOutput();
+
         }
+        return {
+          minuteArr: this.minutesArr,
+          hoursArr: this.hoursArr,
+          dayOfMonthArr: this.dayOfMonthArr,
+          monthsArr: this.monthsArr,
+          dayOfWeeksArr: this.dayOfWeeksArr,
+          errorMsg: this.errStr,
+        };
       }
     } catch (err) {
       throw err;
